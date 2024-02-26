@@ -1,0 +1,194 @@
+/* algeme dingen  */
+
+body {
+   background-color: #F5CBC0;
+   /* width: 375px;
+   height: 667px; */
+   overflow-x: hidden;
+}
+
+
+
+h2 {
+   font-family: "Girassol", serif;
+   color: #3A2317;
+}
+
+p {
+   font-family: "Flamenco", serif;
+   color: #3A2317;
+}
+
+
+
+/* footer */
+
+footer {
+   background-color: #A87E62;
+}
+
+.horizontal-list {
+   list-style: none;
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.horizontal-list li {
+   color: #DFCEB9;
+   font-family: "Flamenco", serif;
+}
+
+
+
+/* home page  */
+
+h1 {
+   font-family: "Diplomata", serif;
+   font-size: 1.35em;
+   text-align: center;
+   color: #3A2317;
+}
+
+.logo-img, .rumor-foto, .natuur-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-img img {
+   width: 150px;
+   height: 150px;
+}
+
+.intro {
+   background-color: #DFCEB9;
+   border-radius: 5px;
+}
+
+a {
+   text-decoration: none;
+   color: #3A2317;
+   font-family: "Flamenco", serif;
+}
+
+.navigator {
+   list-style: none;
+   margin: 20;
+}
+
+.navigator li {
+   padding-left: 10px;
+   font-size: 1.3em;
+}
+
+.navigator li::before {
+   content: "→";
+   padding-right: 8px;
+}
+
+.rumor-foto {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.rumor-foto img, .natuur-img img {
+   width: 130px;
+   height: 180px;
+   border-radius: 5px;
+}
+
+
+
+
+
+/* header button */
+
+.go-back-button {
+   position: fixed;
+   top: 10px;
+   left: 10px;
+}
+
+.go-back-button a {
+   display: block;
+}
+
+.go-back-button img {
+   width: 30px;
+   height: 30px;
+}
+
+/* logo voor de niet-home-page  */
+
+.logo-img2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-img2 img {
+   width: 100px;
+   height: 100px;
+   padding-top: 20px;
+}
+
+
+
+
+/* my finds page */
+
+
+.text1,
+.text2 {
+   padding-top: 40px;
+
+}
+
+.text1 p {
+   background-color: #DFCEB9;
+}
+
+.finds-gallery {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   /* background-color: #d3d3d3;  */
+   padding: 20px;
+}
+
+.polaroid {
+   width: 200px;
+   text-align: center;
+   margin: 10px;
+   background-color: #d3d3d3;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.polaroid img {
+   width: 60px;
+   height: 100px;
+   margin: 10px auto;
+}
+
+.polaroid h2,
+.polaroid p {
+   margin: 5px 0;
+   font-size: 1em;
+}
+
+
+/* recyclen page */
+
+.recycle {
+   background-color: #DFCEB9;
+   border-radius: 10px;
+   padding: 5px
+   
+}
+
+.natuur-img img {
+   margin-top: 15px;
+}
